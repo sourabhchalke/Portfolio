@@ -1,11 +1,14 @@
 
 import './App.css'
+import IndexRail from './components/IndexRail.jsx'
 
 function App() {
 
   return (
     <>
-      <section className='text-red-600'>Portfolio</section>
+      <section className='text-red-600'></section>
+
+      <IndexRail/>
     </>
   )
 }
